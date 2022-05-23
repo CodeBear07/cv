@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mesaj Gönder</title>
+</head>
+
+<body>
+  <form action="mailto:bariscan.ersoylu@gmail.com" enctype="text/plain">
+    <table>
+      <tr>
+        <td><label for="name">Ad Soyad:</label></td>
+        <td> <input type="text" name="name"></td>
+        <td> <input type="color"><br></td>
+      </tr>
+      <tr>
+        <td><label for="email">E Posta adresi:</label></td>
+        <td><input type="email" id="email" name="email"></td>
+      </tr>
+      <tr>
+        <td> <label for="password">Şifre:</label></td>
+        <td> <input type="password" name="password"><br></td>
+      </tr>
+      <tr>
+        <td><label for="doğum_tarihi">Doğum tarihi:</label></td>
+        <td><input type="date" name="doğum_tarihi"></td>
+      </tr>
+      <table>
+        <label for="mesaj">Mesajınız:</label><br>
+        <textarea name="mesaj" rows="10" cols="50"></textarea>
+      </table>
+      <tr>
+        <td> <label>E posta listesine kayıt olmak ister misin?</label></td>
+        <td> <input type="checkbox"></td>
+        <td> <input type="submit" value="Gönder"></td>
+        <td><input type="reset" name="" value="Sıfırla"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
